@@ -107,47 +107,43 @@ font-weight:500;
 
 /* ATALHOS */
 
-.atalhos{
-padding:80px 8%;
-background:white;
-}
-
-.atalhos h2{
-text-align:center;
-color:#2f9e44;
-margin-bottom:40px;
-}
-
-.atalhos-grid{
+.cards-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
+margin-top:20px;
 }
 
-.atalho{
-background:#f7f7f7;
-padding:25px;
-border-radius:10px;
+.card-passeio{
+background:#ffffff;
+border-radius:14px;
+padding:20px;
 text-align:center;
 text-decoration:none;
-color:#222;
-font-weight:500;
-box-shadow:0 5px 20px rgba(0,0,0,0.05);
+color:#333;
+box-shadow:0 5px 18px rgba(0,0,0,0.08);
 transition:0.3s;
 }
 
-.atalho:hover{
-transform:translateY(-5px);
-background:#2f9e44;
-color:white;
+.card-passeio:hover{
+transform:translateY(-6px);
+box-shadow:0 12px 25px rgba(0,0,0,0.15);
 }
 
-.atalho span{
-font-size:30px;
-display:block;
+.card-icone{
+font-size:40px;
 margin-bottom:10px;
 }
 
+.card-passeio h3{
+margin:10px 0 5px;
+font-size:18px;
+}
+
+.card-passeio p{
+font-size:14px;
+color:#666;
+}
 /* GANCHOS */
 
 .ganchos{
@@ -297,62 +293,87 @@ Reservar passeio
 
 <h2>Escolha seu passeio</h2>
 
-<div class="atalhos-grid">
+<div class="cards-grid">
 
-<a class="atalho" href="buggy.html">
-<span>🏜️</span>
-Passeio de Buggy
+<a class="card-passeio" href="buggy.html">
+<div class="card-icone">🏜️</div>
+<h3>Passeio de Buggy</h3>
+<p>O passeio mais famoso do litoral do RN.</p>
 </a>
 
-<a class="atalho" href="4x4-litoral-sul.html">
-<span>🚙</span>
-Passeio 4x4 Litoral Sul
+<a class="card-passeio" href="quadriciclo.html">
+<div class="card-icone">🏍️</div>
+<h3>Quadriciclo</h3>
+<p>Aventura pelas dunas e trilhas.</p>
 </a>
 
-<a class="atalho" href="rio do fogo.html">
-<span>🌅</span>
-Rio do Fogo
+<a class="card-passeio" href="4x4-litoral-sul.html">
+<div class="card-icone">🚙</div>
+<h3>4x4 Litoral Sul</h3>
+<p>Falésias, praias e paisagens incríveis.</p>
 </a>
 
-<a class="atalho" href="maracajau.html">
-<span>🐠</span>
-Parrachos de Maracajaú
+<a class="card-passeio" href="rio-do-fogo.html">
+<div class="card-icone">🌅</div>
+<h3>Rio do Fogo</h3>
+<p>Piscinas naturais e tranquilidade.</p>
 </a>
 
-<a class="atalho" href="pipa.html">
-<span>🌊</span>
-Pipa
+<a class="card-passeio" href="maracajau.html">
+<div class="card-icone">🐠</div>
+<h3>Parrachos de Maracajaú</h3>
+<p>Mergulho nos famosos parrachos.</p>
 </a>
 
-<a class="atalho" href="passeios das aguas.html">
-<span>💧</span>
-Passeio das Águas
+<a class="card-passeio" href="perobas.html">
+<div class="card-icone">🐟</div>
+<h3>Parrachos de Perobas</h3>
+<p>Águas cristalinas e muitos peixes.</p>
 </a>
 
-<a class="atalho" href="gostoso.html">
-<span>🌴</span>
-São Miguel do Gostoso
+<a class="card-passeio" href="pipa.html">
+<div class="card-icone">🌊</div>
+<h3>Pipa</h3>
+<p>Falésias, golfinhos e praias famosas.</p>
 </a>
 
-<a class="atalho" href="barra do cunhau.html">
-<span>🏖️</span>
-Barra do Cunhaú
+<a class="card-passeio" href="passeio-das-aguas.html">
+<div class="card-icone">💧</div>
+<h3>Passeio das Águas</h3>
+<p>Lagoas e praias paradisíacas.</p>
 </a>
 
-<a class="atalho" href="galinhos.html">
-<span>⛵</span>
-Galinhos
+<a class="card-passeio" href="lagoa-carcara.html">
+<div class="card-icone">🏞️</div>
+<h3>Lagoa de Carcará</h3>
+<p>Uma das lagoas mais lindas do RN.</p>
 </a>
 
-<a class="atalho" href="joao pessoa.html">
-<span>🏙️</span>
-João Pessoa
+<a class="card-passeio" href="gostoso.html">
+<div class="card-icone">🌴</div>
+<h3>São Miguel do Gostoso</h3>
+<p>Destino charmoso e tranquilo.</p>
+</a>
+
+<a class="card-passeio" href="barra-do-cunhau.html">
+<div class="card-icone">🏖️</div>
+<h3>Barra do Cunhaú</h3>
+<p>Encontro do rio com o mar.</p>
+</a>
+
+<a class="card-passeio" href="galinhos.html">
+<div class="card-icone">⛵</div>
+<h3>Galinhos</h3>
+<p>Dunas de sal e natureza preservada.</p>
+</a>
+
+<a class="card-passeio" href="joao-pessoa.html">
+<div class="card-icone">🏙️</div>
+<h3>João Pessoa</h3>
+<p>História, cultura e praias lindas.</p>
 </a>
 
 </div>
-
-
-</section>
 
 <section class="ganchos">
 

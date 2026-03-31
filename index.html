@@ -109,41 +109,48 @@ font-weight:500;
 
 .cards-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:20px;
-margin-top:20px;
+margin-top:25px;
 }
 
 .card-passeio{
-background:#ffffff;
-border-radius:14px;
-padding:20px;
-text-align:center;
+background:#fff;
+border-radius:12px;
+overflow:hidden;
 text-decoration:none;
 color:#333;
-box-shadow:0 5px 18px rgba(0,0,0,0.08);
+box-shadow:0 6px 20px rgba(0,0,0,0.1);
 transition:0.3s;
 }
 
 .card-passeio:hover{
 transform:translateY(-6px);
-box-shadow:0 12px 25px rgba(0,0,0,0.15);
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
 }
 
-.card-icone{
-font-size:40px;
-margin-bottom:10px;
+.card-passeio img{
+width:100%;
+height:180px;
+object-fit:cover;
 }
 
-.card-passeio h3{
-margin:10px 0 5px;
+.card-info{
+padding:15px;
+}
+
+.card-info h3{
+margin:0;
 font-size:18px;
 }
 
-.card-passeio p{
+.card-info p{
+margin-top:6px;
 font-size:14px;
 color:#666;
 }
+
+  
 /* GANCHOS */
 
 .ganchos{
@@ -296,85 +303,87 @@ Reservar passeio
 <div class="cards-grid">
 
 <a class="card-passeio" href="buggy.html">
-<div class="card-icone">🏜️</div>
+<img src="img/buggy.jpg" alt="Passeio de Buggy em Natal">
+<div class="card-info">
 <h3>Passeio de Buggy</h3>
-<p>O passeio mais famoso do litoral do RN.</p>
-</a>
-
-<a class="card-passeio" href="quadriciclo.html">
-<div class="card-icone">🏍️</div>
-<h3>Quadriciclo</h3>
-<p>Aventura pelas dunas e trilhas.</p>
+<p>A aventura mais famosa pelas dunas.</p>
+</div>
 </a>
 
 <a class="card-passeio" href="4x4-litoral-sul.html">
-<div class="card-icone">🚙</div>
+<img src="img/4x4-litoral-sul.jpg" alt="Passeio 4x4 Litoral Sul">
+<div class="card-info">
 <h3>4x4 Litoral Sul</h3>
 <p>Falésias, praias e paisagens incríveis.</p>
-</a>
-
-<a class="card-passeio" href="rio-do-fogo.html">
-<div class="card-icone">🌅</div>
-<h3>Rio do Fogo</h3>
-<p>Piscinas naturais e tranquilidade.</p>
+</div>
 </a>
 
 <a class="card-passeio" href="maracajau.html">
-<div class="card-icone">🐠</div>
+<img src="img/maracajau.jpg" alt="Parrachos de Maracajaú">
+<div class="card-info">
 <h3>Parrachos de Maracajaú</h3>
 <p>Mergulho nos famosos parrachos.</p>
+</div>
 </a>
 
-<a class="card-passeio" href="perobas.html">
-<div class="card-icone">🐟</div>
-<h3>Parrachos de Perobas</h3>
-<p>Águas cristalinas e muitos peixes.</p>
+<a class="card-passeio" href="rio-do-fogo.html">
+<img src="img/rio-do-fogo.jpg" alt="Rio do Fogo">
+<div class="card-info">
+<h3>Rio do Fogo</h3>
+<p>Piscinas naturais e tranquilidade.</p>
+</div>
 </a>
 
 <a class="card-passeio" href="pipa.html">
-<div class="card-icone">🌊</div>
+<img src="img/pipa.jpg" alt="Praia da Pipa">
+<div class="card-info">
 <h3>Pipa</h3>
 <p>Falésias, golfinhos e praias famosas.</p>
+</div>
 </a>
 
 <a class="card-passeio" href="passeio-das-aguas.html">
-<div class="card-icone">💧</div>
+<img src="img/passeio-das-aguas.jpg" alt="Passeio das Águas">
+<div class="card-info">
 <h3>Passeio das Águas</h3>
 <p>Lagoas e praias paradisíacas.</p>
-</a>
-
-<a class="card-passeio" href="lagoa-carcara.html">
-<div class="card-icone">🏞️</div>
-<h3>Lagoa de Carcará</h3>
-<p>Uma das lagoas mais lindas do RN.</p>
+</div>
 </a>
 
 <a class="card-passeio" href="gostoso.html">
-<div class="card-icone">🌴</div>
+<img src="img/gostoso.jpg" alt="São Miguel do Gostoso">
+<div class="card-info">
 <h3>São Miguel do Gostoso</h3>
 <p>Destino charmoso e tranquilo.</p>
+</div>
 </a>
 
 <a class="card-passeio" href="barra-do-cunhau.html">
-<div class="card-icone">🏖️</div>
+<img src="img/cunhau.jpg" alt="Barra do Cunhaú">
+<div class="card-info">
 <h3>Barra do Cunhaú</h3>
 <p>Encontro do rio com o mar.</p>
+</div>
 </a>
 
 <a class="card-passeio" href="galinhos.html">
-<div class="card-icone">⛵</div>
+<img src="img/galinhos.jpg" alt="Galinhos RN">
+<div class="card-info">
 <h3>Galinhos</h3>
 <p>Dunas de sal e natureza preservada.</p>
+</div>
 </a>
 
 <a class="card-passeio" href="joao-pessoa.html">
-<div class="card-icone">🏙️</div>
+<img src="img/joao-pessoa.jpg" alt="João Pessoa">
+<div class="card-info">
 <h3>João Pessoa</h3>
 <p>História, cultura e praias lindas.</p>
+</div>
 </a>
 
 </div>
-
+  
 <section class="ganchos">
 
 <div class="gancho">
